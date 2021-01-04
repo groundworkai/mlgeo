@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="mlgeo",
-    version="0.0.1",
+    version="0.0.2",
     author="Nick Machairas",
     author_email="nick@groundwork.ai",
     description="Repository for Machine Learning in Geotechnics",
@@ -18,5 +18,5 @@ setuptools.setup(
         "License :: Other/Proprietary License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.7',
 )
