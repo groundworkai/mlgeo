@@ -1,11 +1,12 @@
 import setuptools
+import mlgeo
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
     name="mlgeo",
-    version="0.0.2",
+    version=mlgeo.__version__,
     author="Nick Machairas",
     author_email="nick@groundwork.ai",
     description="Repository for Machine Learning in Geotechnics",
@@ -19,4 +20,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.7',
+    install_requires=[
+        'numpy>=1.19'
+    ]
 )
