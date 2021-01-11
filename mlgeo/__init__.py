@@ -13,7 +13,7 @@ barrier of entry to Machine Learning for Geoprofessionals by:
 For more, visit https://github.com/groundworkai/mlgeo
 """
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 import os
 
@@ -29,6 +29,6 @@ if not os.path.isdir(dataset_path):
 # -- Keeping track of library and dataset versions
 dataset_version = {
     'slt': {
-        '0.0.2': '0.0.2'
+        '0.0.3': '0.0.3'
     }
 }
