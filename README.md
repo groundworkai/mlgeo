@@ -5,14 +5,15 @@
     <a href="https://pypi.org/project/mlgeo" target="_blank">
         <img src="https://img.shields.io/pypi/v/mlgeo?style=flat&color=brightgreen&label=PyPI%20Package" alt="Package version">
     </a>
+    <br><br>
 </div>
 
 
 This is the beginning of an exciting effort in lowering the barrier of entry to 
 Machine Learning for Geoprofessionals by:
 
-* Distributing relevant and interesting toy datasets to practice with (now)
-* Offering tools that can make applying ML easier, especially for beginners (soon)
+1. Distributing relevant and interesting toy datasets to practice with (now)
+2. Offering tools that can make applying ML easier, especially for beginners (soon)
 
 
 ### TRB2021 AKG70 Presentation
