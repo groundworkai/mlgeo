@@ -1,8 +1,13 @@
 # -- Imports ------------------------------------------------------------------
+import sys
 import os
-import pickle
+if sys.version_info.minor <= 7:
+    import pickle5 as pickle
+else:
+    import pickle
 import urllib.request
 import mlgeo
+
 
 
 # -- Main Functions -----------------------------------------------------------
