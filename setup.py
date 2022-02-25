@@ -22,6 +22,7 @@ setuptools.setup(
     python_requires='>=3.7',
     install_requires=[
         'numpy>=1.19',
-        'pickle5'
+        'pickle5',
+        'pandas'
     ]
 )
